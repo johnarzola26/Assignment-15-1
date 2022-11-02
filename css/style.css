@@ -1,0 +1,46 @@
+/* Color pallettes
+#wrapper - #B5BEC6
+
+
+*/
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  color: black;
+  line-height: 1.5em;
+}
+
+#wrapper {
+  width: 1000px;
+  margin-left: 100px;
+  margin-right: auto;
+  background-color: #b5bec6;
+  box-shadow: 13px 13px 35px 7px rgba(0, 0, 0, 0.75);
+}
+
+.top {
+  border-bottom: black;
+}
+
+.left {
+  float: left;
+  width: 200px;
+}
+
+.mainA {
+  width: 380px;
+  float: left;
+}
+
+.mainB {
+  width: 380px;
+  float: right;
+}
+
+.bottom {
+  clear: both;
+  width: 90%;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
