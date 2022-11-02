@@ -1,6 +1,6 @@
 /* Color pallettes
 #wrapper - #B5BEC6
-
+body background - #C7DBE6
 
 */
 
@@ -9,6 +9,7 @@ body {
   font-size: 1em;
   color: black;
   line-height: 1.5em;
+  background-color: #c7dbe6;
 }
 
 #wrapper {
@@ -36,6 +37,7 @@ body {
 .mainB {
   width: 380px;
   float: right;
+  padding: 15px;
 }
 
 .bottom {
@@ -43,4 +45,30 @@ body {
   width: 90%;
   padding-left: 15px;
   padding-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  line-height: 1.6;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+  font-size: 1em;
+}
+
+img {
+  border: black 1px solid;
 }
